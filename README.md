@@ -2,6 +2,8 @@
 
 This tool is written in Python, and was created using ChatGPT and myself. As a newbie programmer, some features will be inefficient but working, so please fill me in on any flaws you see in my code, potential fixes or more efficient workarounds. Do with the code however you please, I do not care. If you want to use this in a module somewhere, go ahead.
 
+This tool will help speed up the creation and development of many .sound tags. This is especially useful for anyone working on dialogue ports like myself. I hope this helps you!!! 👍👍👍👍
+
 *THIS IS CURRENTLY A WORK-IN-PROGRESS*
 
 Before downloading this tool, make sure you've downloaded the latest version of Python and **IMPORTANT** make sure you add Python to Path in the installer or manually add the path to "python.exe" in environment variables. Make sure you have this repository set-up, so the facial animations import properly: https://github.com/yokimklein/H3EK-FaceFXWrapper.
