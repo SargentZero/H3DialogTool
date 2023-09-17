@@ -2,7 +2,7 @@ import os
 import re
 import shutil
 
-# Define the directory containing the .wav files. **MAKE SURE YOU USE REPLACE THE SINGLE BACK SLASHES "\" WITH DOUBLE FORWARD SLASHES "//"**
+# Define the directory containing the .wav files. **MAKE SURE YOU REPLACE THE SINGLE BACK SLASHES "\" WITH DOUBLE FORWARD SLASHES "//"**
 wav_files_directory = r"C://Program Files (x86)//Steam//steamapps//common//H3EK//data//directory_to_your_wav_files"
 
 # Function to extract characters before the bracket from a .wav filename
@@ -18,6 +18,12 @@ def extract_characters_in_brackets(filename):
     if match:
         return match.group(1)
     return None
+
+# Function to create an empty .txt file with the sound permutation name as the filename
+def create_empty_txt_file(folder, final_name):
+    txt_filename = f"{final_name}.txt"
+    txt_path = os.path.join(folder, txt_filename)
+    open(txt_path, 'w').close()
 
 # Dictionary to keep track of created folder names
 created_folders = {}
@@ -47,7 +53,11 @@ for root, _, files in os.walk(wav_files_directory):
                     new_wav_path = os.path.join(destination_folder, new_filename)
                     os.rename(destination_path, new_wav_path)
                     print(f"Renamed: {filename} -> {new_filename}")
-            else:
-                print(f"Skipping: {filename} (Invalid name or no name found. . . Dumbass)")
 
-print("Folder creation, file movement, and renaming completed. Oh yea. . .")
+                # Create an empty .txt file with the sound permutation name as the filename
+                create_empty_txt_file(destination_folder, characters_in_brackets)
+                print(f"Created: {characters_in_brackets}.txt")
+            else:
+                print(f"Skipping: {filename} (Invalid name or no name found. . . Fucking Dumbass)")
+
+print("Folder creation, file movement, renaming, and empty .txt file creation completed. Oh yeaaaaaaaa >:)")
