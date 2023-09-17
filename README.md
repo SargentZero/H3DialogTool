@@ -20,7 +20,7 @@ Maybe feature: Batch .sound tag copy values -- Say you are porting folders of .s
 
 - A pretty GUI and customizability for all Halo Games -- So this tool is geared towards H3EK, but most features can also work for all the other Halo editing kits after changing a few lines. I will specificy this in a video.
 
-***HOW TO USE RIGHT NOW***
+# HOW TO USE RIGHT NOW
 
 All you need to do is open h3wavtool.py file in txt editor, and specify your directory of .wav files. Open cmd to where the tool is located and run "python h3wavtool.py". That's it folders, and files will be automatically organized and renamed. :D
 
