@@ -24,7 +24,7 @@ This tool will help speed up the creation and development of many .sound tags. T
 
 # HOW TO USE RIGHT NOW !!!!!!!!!!!!!!!
 
-All you need to do is open h3wavtool.py file in txt editor, and specify your directory of .wav files. Open cmd to where the tool is located and run "python h3wavtool.py". That's it folders, and files will be automatically organized and renamed. :D
+All you need to do is open h3wavtool.py file in txt editor, and specify your directory of .wav files. Open cmd to where the tool is located and run "python h3wavtool.py". That's it folders, and files will be automatically organized and renamed. :D ***REMEMBER DOUBLE FORWARD SLASHES INSTEAD OF SINGLE BACKSLASHES***
 
 ![pink-guy-you](https://github.com/SargentZero/H3DialogTool/assets/49167469/2b80f042-c189-479f-8f7b-455ee5cdeccf)
 
