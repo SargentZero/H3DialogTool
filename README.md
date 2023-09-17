@@ -2,15 +2,15 @@
 
 This tool will help speed up the creation and development of many .sound tags. This is especially useful for anyone working on dialogue ports like myself. I hope this helps you!!! 👍👍👍👍
 
-(This tool is written in Python, and was created using ChatGPT and myself. As a newbie programmer, some features will be inefficient but working, so please fill me in on any flaws you see in my code, potential fixes or more efficient workarounds. Do with the code however you please, I do not care. If you want to use this in a module somewhere, go ahead.)
+*(This tool is written in Python, and was created using ChatGPT and myself. As a newbie programmer, some features will be inefficient but working, so please fill me in on any flaws you see in my code, potential fixes or more efficient workarounds. Do with the code however you please, I do not care. If you want to use this in a module somewhere, go ahead.)*
 
 ***THIS IS CURRENTLY A WORK-IN-PROGRESS***
 
-(Before downloading this tool, make sure you've downloaded the latest version of Python and **IMPORTANT** make sure you add Python to Path in the installer or manually add the path to "python.exe" in environment variables. Make sure you have this repository set-up, so the facial animations import properly: https://github.com/yokimklein/H3EK-FaceFXWrapper.)
+*(Before downloading this tool, make sure you've downloaded the latest version of Python and **IMPORTANT** make sure you add Python to Path in the installer or manually add the path to "python.exe" in environment variables. Make sure you have this repository set-up, so the facial animations import properly: https://github.com/yokimklein/H3EK-FaceFXWrapper.)*
 
-(This tool works with .wav files extracted using Reclaimer or downloaded from https://www.sounds-resource.com/)
+*(This tool works with .wav files extracted using Reclaimer or downloaded from https://www.sounds-resource.com/)*
 
-**Only Feature As Of Right Now** This tool currently takes .wav files from a given directory (Presumabley all contained within a single directory given) and organizes these .wav files into folders named after the .wav files, renames the .wav files into their designated permutation names that are contained within brackets[] and creates an empty .txt file with the same permutation name as the associated .wav file. So, the only part left to do before importing with "tool.exe", is the fun part of listening to the audio and typing what it says! (Later on I'll add a boolean to turn off .txt file creation if you want to work with other types of sound.)
+**Only Feature As Of Right Now** This tool currently takes .wav files from a given directory (Presumabley all contained within a single directory given) and organizes these .wav files into folders named after the .wav files, renames the .wav files into their designated permutation names that are contained within brackets[] and creates an empty .txt file with the same permutation name as the associated .wav file. So, the only part left to do before importing with "tool.exe", is the fun part of listening to the audio and typing what it says! *(Later on I'll add a boolean to turn off .txt file creation if you want to work with other types of sound.)*
 
 - Planned features
 
@@ -30,5 +30,5 @@ All you need to do is open h3wavtool.py file in txt editor, and specify your dir
 
 Permission issues may arise if you don't have admin privileges or your trying to work with wav files in a flash drive.
 
-If you have any questions you can msg me on Discord @ Sargent 0#1097
+*If you have any questions you can msg me on Discord @ Sargent 0#1097*
 
