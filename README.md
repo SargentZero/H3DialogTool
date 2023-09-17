@@ -24,8 +24,7 @@ Maybe feature: Batch .sound tag copy values -- Say you are porting folders of .s
 
 All you need to do is open h3wavtool.py file in txt editor, and specify your directory of .wav files. Open cmd to where the tool is located and run "python h3wavtool.py". That's it folders, and files will be automatically organized and renamed. :D
 
-![nyesssss-filthy-frank](https://github.com/SargentZero/H3DialogTool/assets/49167469/c8a3cba9-89ca-436a-9a74-5416ba2e9340)
-
+![pink-guy-you](https://github.com/SargentZero/H3DialogTool/assets/49167469/2b80f042-c189-479f-8f7b-455ee5cdeccf)
 
 Permission issues may arise if you don't have admin privileges or your trying to work with wav files in a flash drive.
 
