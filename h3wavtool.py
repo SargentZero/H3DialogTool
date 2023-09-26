@@ -2,8 +2,10 @@ import os
 import re
 import shutil
 
-# Define the directory containing the .wav files. **MAKE SURE YOU REPLACE THE SINGLE BACK SLASHES "\" WITH DOUBLE FORWARD SLASHES "//"**
-wav_files_directory = r"C://Program Files (x86)//Steam//steamapps//common//H3EK//data//directory_to_your_wav_files"
+# Define the directory containing the .wav files.
+wav_files_directory = input("Paste your directory here:  ")
+
+wav_files_directory = wav_files_directory.replace("\\", "//")
 
 # Function to extract characters before the bracket from a .wav filename
 def extract_name(filename):
